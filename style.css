@@ -1,3 +1,15 @@
 /* .page-header {
     background-image: url("pexels-rodnae-productions-8111340.jpg");
 } */
+
+.section-basic {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.row {
+    align-items: center;
+}
+
