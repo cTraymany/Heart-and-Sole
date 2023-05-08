@@ -5,8 +5,11 @@
 .section-basic {
     display: flex;
     justify-content: center;
-    text-align: justify;
     hyphens: auto;
+}
+
+p {
+    text-align: justify;
 }
 
 .row {
