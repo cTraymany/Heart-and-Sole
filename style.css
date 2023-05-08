@@ -17,5 +17,14 @@ p {
 }
 
 .img-container {
-    padding: 60px;
+    padding: 50px;
+}
+
+.more-info {
+    display: grid;
+    gap: 20px;
+}
+
+.more-info > div > h4 {
+    margin-top: 0;
 }
