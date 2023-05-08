@@ -1,23 +1,24 @@
-/* .page-header {
-    background-image: url("pexels-rodnae-productions-8111340.jpg");
-} */
-
-.section-basic {
-    display: flex;
-    justify-content: center;
-    hyphens: auto;
+h4 {
+    margin-top: 0;
 }
 
 p {
     text-align: justify;
 }
 
-.row {
-    align-items: center;
+.img-container {
+    padding: 40px;
 }
 
-.img-container {
-    padding: 50px;
+.intro > * {
+    margin: 0;
+    line-height: normal;
+}
+
+.intro > h4 {
+    line-height: 1.8;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .more-info {
@@ -25,6 +26,20 @@ p {
     gap: 20px;
 }
 
-.more-info > div > h4 {
-    margin-top: 0;
+.more-info > div > * {
+    padding: 0;
+}
+
+.row {
+    align-items: center;
+}
+
+.section-basic {
+    display: flex;
+    justify-content: center;
+    hyphens: auto;
+}
+
+.title {
+    margin-bottom: 10px;
 }
